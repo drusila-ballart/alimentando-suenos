@@ -55,120 +55,205 @@
                 <p>Al elegir donar, estás demostrando tu compromiso con la comunidad y con la equidad. Cada peso donado se destina directamente a la compra de alimentos y suministros necesarios para los merenderos. Además, nos aseguramos de que los recursos se utilicen de manera eficiente y transparente, para maximizar el impacto de cada donación.</p>
                 <p>Nuestro merendero cuenta con un equipo de voluntarios comprometidos, quienes se esfuerzan día a día para llevar adelante esta noble tarea. Pero su labor no sería posible sin el apoyo económico de personas como vos. Juntos, podemos asegurar que ningún niño se vaya a dormir con hambre, que todos tengan la oportunidad de crecer sanos y felices.</p>
             </div>
-            <br>
             <section>
-                <div>
-                    <h2 class="section-heading text-uppercase">Calculadora de donaciones</h2>
-            </section>
-            <section class="page-section" id="contact">
-                <div class="container">
-                    <div class="text-center">
-                        <h2 class="section-heading text-uppercase">Doná y transformá realidades</h2>
-                        <h3>Tu donación, por más pequeña que sea, contribuirá a cambiar vidas y a construir un futuro más justo.</h3>
-                        <br>
-                    </div>
-                    <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                        <div class="row align-items-stretch mb-5">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <!-- Nombre -->
-                                    <input class="form-control" id="name" type="text" placeholder="Nombre *" data-sb-validations="required" />
-                                    <div class="invalid-feedback" data-sb-feedback="name:required">Por favor, ingrese su nombre.</div>
-                                </div>
-                                <div class="form-group">
-                                    <!-- Número de contacto -->
-                                    <input class="form-control" id="phone" type="tel" placeholder="Número de contacto *" data-sb-validations="required" />
-                                    <div class="invalid-feedback" data-sb-feedback="phone:required">Por favor, ingrese su número de contacto (celular / teléfono fijo).</div>
-                                </div>
-                                <div class="form-group">
-                                    <!-- Cada cuanto tiempo quiere donar -->
-                                    <input class="form-control" placeholder="¿Cada cuánto quiero donar? *" data-sb-validations="required" />
-                                    <select id="opciones">
-                                        <option value="Opción 1">Una vez por mes</option>
-                                        <option value="Opción 2">Cada dos meses</option>
-                                        <option value="Opción 3">Cada tres meses</option>
-                                    </select>
-                                    <div class="invalid-feedback" data-sb-feedback="name:required">Por favor, seleccione una opción.</div>
-                                </div>
-                                <div class="form-group">
-                                    <!-- Número de tarjeta -->
-                                    <input class="form-control" id="name" type="number" placeholder="Número de tarjeta *" data-sb-validations="required" />
-                                    <div class="invalid-feedback" data-sb-feedback="name:required">Por favor, ingrese el número de su tarjeta.</div>
-                                </div>
-                                <div class="form-group">
-                                    <!-- CVC -->
-                                    <input class="form-control" id="name" type="number" placeholder="CVC *" data-sb-validations="required" />
-                                    <div class="invalid-feedback" data-sb-feedback="name:required">Por favor, ingrese el código de seguridad de su tarjeta.</div>
-                                </div>
-                                <div class="form-group">
-                                    <!-- Expiración -->
-                                    <input class="form-control" id="name" type="number" placeholder="Expiración *" data-sb-validations="required" />
-                                    <div class="invalid-feedback" data-sb-feedback="name:required">Por favor, ingrese la fecha de expiración de su tarjeta.</div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <!-- Apellido -->
-                                    <input class="form-control" id="name" type="text" placeholder="Apellido *" data-sb-validations="required" />
-                                    <div class="invalid-feedback" data-sb-feedback="name:required">Por favor, ingrese su apellido.</div>
-                                </div>
-                                <div class="form-group">
-                                    <!-- Correo Electrónico -->
-                                    <input class="form-control" id="email" type="email" placeholder="Correo Electrónico *" data-sb-validations="required,email" />
-                                    <div class="invalid-feedback" data-sb-feedback="email:required">Por favor, ingrese su correo electrónico.</div>
-                                    <div class="invalid-feedback" data-sb-feedback="email:email">El correo electrónico no es válido.</div>
-                                </div>
-                                <div class="form-group">
-                                    <!-- Monto de la donación -->
-                                    <input class="form-control" id="name" type="number" placeholder="Monto de la donación *" data-sb-validations="required" />
-                                    <div class="invalid-feedback" data-sb-feedback="name:required">Por favor, ingrese el monto que desea donar.</div>
-                                </div>
-                                <div class="form-group">
-                                    <!-- DNI -->
-                                    <input class="form-control" id="name" type="number" placeholder="DNI *" data-sb-validations="required" />
-                                    <div class="invalid-feedback" data-sb-feedback="name:required">Por favor, ingrese su DNI.</div>
-                                </div>
-                                <div class="form-group">
-                                    <!-- Selección merendero -->
-                                    <input class="form-control" placeholder="Seleccionar merendero *" data-sb-validations="required" />
-                                    <select id="opciones">
-                                        <option value="Opción 1">Los Peques</option>
-                                        <option value="Opción 2">Rayito de Luz</option>
-                                    </select>
-                                    <div class="invalid-feedback" data-sb-feedback="name:required">Por favor, seleccione una opción.</div>
-                                </div>
-                            </div>
-                                <!-- Formulario cargado con éxito -->
-                                <!---->
-                                <!-- Esto es lo que los usuarios van a visualizar cuando hayan ingresado sus datos de manera exitosa -->
-                                <div class="d-none" id="submitSuccessMessage">
-                                    <div class="text-center text-white mb-3">
-                                        <div class="fw-bolder">Formulario subido con éxito!</div>
-                                        To activate this form, sign up at
-                                        <br />
-                                        <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                    </div>
-                                </div>
-                                <!-- Error al cargar el formulario -->
-                                <!---->
-                                <!-- Esto es lo que los usuarios van a visualizar si hay un error en la carga del formulario -->
-                                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error al cargar el formulario!</div></div>
-                                <!-- Botón "Enviar" -->
-                                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Enviar</button></div>
-                            </form>
+                <script>
+                    function sumar(){
+                        var num1 = document.getElementById("adultos").value;
+                        var num2 = document.getElementById("comidas").value;
+                        var num3 = document.getElementById("chicos").value;
+            
+                        if (num1 == ''){
+                            num1 = 0;
+                        }
+                        if (num2 == ''){
+                            num2 = 0;
+                        }
+                        if (num3 == ''){
+                            num3 = 0;
+                        }
+            
+                        var suma= ((parseInt(num1) + parseInt(num3))*num2);
+                        document.getElementById('resultado').value = suma;
+                    }
+                </script>
+                <h3><span style="color:#764700">Calculadora de donaciones</span></h3>
+                <p><span style="text-align:center">¿No estás seguro de cuanto donar? Acá podes calcular el alcance de tu contribución.</span></p>
+                <main>
+                    <form action="" class="form2" id="form2">
+                        <h4>Cantidad de personas:</h4>
+                        <h4>¿Cuántas comidas?</h4>
+                        <div class="form2_datos">
+                            <input type="number" name="adultos" id="adultos" class="datos-input" onkeyup="sumar();">
+                            <p>Adultos</p>
+                        </div>
+                        
+                        
+                        <input type="number" name="comidas" id="comidas" class="datos-input3" onkeyup="sumar();">
+            
+                        <div class="form2_datos">
+                            <input type="number" name="chicos" id="chicos" class="datos-input2" onkeyup="sumar();">
+                            <p>Niños</p>
+                        </div>
+            
+                        <div class="final">
+                            <h4>Total</h4>
+                            <input type="number" name="resultado" id="resultado"  class="datos-input" readonly="">
                         </div>
                     </form>
+                </main>
+            </section>
+            <section class="page-section" id="contact">
+                <main>
+                    <div class="voluntarios">
+                        <div class="titulos">
+                            <h1><span style="color:rgba(245, 234, 194, 1)">Doná </span><span style="color:white">y transforma realidades</span></h1>
+                            <h3>Tu donación, por mas pequeña que sea, contribuirá a cambiar vidas y a construir un futuro más justo.</h3>
+                        </div>
+                
+                        <form action="" class="formulario" id="formulario">
+                            <!-- Grupo: Nombre -->
+                            <div class="formulario__grupo" id="grupo__nombre">
+                                <label for="nombre" class="formulario__label">Nombre*</label>
+                                <div class="formulario__grupo-input">
+                                    <input type="text" class="formulario__input" name="nombre" id="nombre">
+                                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                </div>
+                                <p class="formulario__input-error">El nombre tiene que ser de 4 a 16 dígitos y solo puede contener letras.</p>
+                            </div>
+                
+                            <!-- Grupo: Apellido -->
+                            <div class="formulario__grupo" id="grupo__apellido">
+                                <label for="apellido" class="formulario__label">Apellido*</label>
+                                <div class="formulario__grupo-input">
+                                    <input type="text" class="formulario__input" name="apellido" id="apellido">
+                                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                </div>
+                                <p class="formulario__input-error">El apellido tiene que ser de 4 a 16 dígitos y solo puede contener letras.</p>
+                            </div>
+                
+                            <!-- Grupo: Teléfono -->
+                            <div class="formulario__grupo" id="grupo__telefono">
+                                <label for="telefono" class="formulario__label">Número de Contacto*</label>
+                                <div class="formulario__grupo-input">
+                                    <input type="text" class="formulario__input" name="telefono" id="telefono">
+                                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                </div>
+                                <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
+                            </div>
+                
+                            <!-- Grupo: Correo Electronico -->
+                            <div class="formulario__grupo" id="grupo__correo">
+                                <label for="correo" class="formulario__label">Correo Electrónico*</label>
+                                <div class="formulario__grupo-input">
+                                    <input type="email" class="formulario__input" name="correo" id="correo">
+                                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                </div>
+                                <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+                            </div>
+                
+                            <!-- Grupo: Cuanto donar -->
+                            <div class="formulario__grupo" id="grupo__donar">
+                                <label for="donar" class="formulario__label">¿Cada cuánto quiere donar?*</label>
+                                <div class="formulario__grupo-input">
+                                    <select class="formulario__input" name="mes" id="selectMes">
+                                        <option disabled selected> </option>
+                                        <option>SOLO UNA VEZ</option>
+                                        <option>POR MES</option>
+                                        <option>POR AÑO</option>
+                                    </select>
+                                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                </div>
+                                <p class="formulario__input-error">Campo requerido</p>
+                            </div>
+
+                            <!-- Grupo: MONTO -->
+                            <div class="formulario__grupo" id="grupo__monto">
+                                <label for="monto" class="formulario__label">Monto de la donación*</label>
+                                <div class="formulario__grupo-input">
+                                    <input type="text" class="formulario__input" name="monto" id="dni">
+                                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                </div>
+                                <p class="formulario__input-error">El monto solo puede contener números .</p>
+                            </div>
+                
+                            <!-- Grupo: Tarjeta -->
+                            <div class="formulario__grupo" id="grupo__tarjeta">
+                                <label for="tarjeta" class="formulario__label">Número de Tarjeta*</label>
+                                <div class="formulario__grupo-input">
+                                    <input type="text" class="formulario__input" name="tarjeta" id="tarjeta">
+                                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                </div>
+                                <p class="formulario__input-error">El número de tarjeta solo puede contener numeros y el maximo son 19 dígitos.</p>
+                            </div>
+                
+                            <!-- Grupo: DNI -->
+                            <div class="formulario__grupo" id="grupo__dni">
+                                <label for="dni" class="formulario__label">DNI*</label>
+                                <div class="formulario__grupo-input">
+                                    <input type="text" class="formulario__input" name="dni" id="dni">
+                                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                </div>
+                                <p class="formulario__input-error">El dni solo puede contener números y el maximo son 8 dígitos.</p>
+                            </div>
+                
+                            <div class="datos_finales">
+                                <!-- Grupo: CVC -->
+                                <div class="formulario__grupo" id="grupo__codigo">
+                                    <label for="codigo" class="formulario__label">CVC*</label>
+                                    <div class="formulario__grupo-input">
+                                        <input type="text" class="formulario__input" name="codigo" id="codigo">
+                                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                    </div>
+                                    <p class="formulario__input-error">El codigo de seguridad solo puede contener números y el maximo son 3 dígitos.</p>
+                                </div>
+                
+                                <!-- Grupo: Expiración -->
+                                <div class="formulario__grupo" id="grupo__vencimiento">
+                                    <label for="vencimiento" class="formulario__label">Expiración*</label>
+                                    <div class="formulario__grupo-input">
+                                        <input type="datetime-local" class="formulario__input" name="vencimiento" id="vencimiento">
+                                        <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                                    </div>
+                                    <p class="formulario__input-error">Campo requerido.</p>
+                                </div>
+                                </div>
+                                
+                                <div class="formulario__mensaje" id="formulario__mensaje">
+                                    <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+                                </div>
+                
+                                <div class="formulario__grupo formulario__grupo-btn-enviar">
+                                    <button type="submit" class="formulario__btn">Enviar</button>
+                                    <p class="formulario__mensaje-exito" id="formulario__mensaje-exito"></p>
+                                </div>
+                            </form>
+                        </div>
+                    </main>
                 </div>
             </section>
         </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
     <!-- Footer-->
     <footer class="footer">
-        <div class="footerleft">
+        <div>
             <p>UADE</p>
             <p>Derechos de imágenes: freepik.es</p>
         </div>
-        <div class="footerright">
+        <div>
             <p>© Todos los derechos reservados</p>
             <br>
             <p>BOTTINELLI, Rocío</p>
@@ -182,6 +267,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="js/tarjeta.js"></script>
+        <script src="js/voluntario.js"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
