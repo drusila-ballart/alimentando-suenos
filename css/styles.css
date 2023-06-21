@@ -299,7 +299,7 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: inherit;
   line-height: inherit;
 }
@@ -10769,6 +10769,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
 html {
   scroll-padding-top: 4.5rem;
 }
@@ -10785,9 +10786,10 @@ p {
   margin-right: 10%;
 }
 
-.page-section {
+/* .page-section {
   padding: 6rem 0;
-}
+} */
+
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
@@ -10803,9 +10805,10 @@ p {
 
 @media (min-width: 768px) {
   section {
-    padding: 9rem 0;
+    padding: 4rem 0;
   }
 }
+
 .btn-xl {
   padding: 1.25rem 2.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10894,6 +10897,7 @@ p {
     margin-right: 0;
   }
 }
+
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
@@ -11021,6 +11025,246 @@ header.masthead5 .masthead-heading {
   background-color: #F5EAC2;
 }
 
+#form2{
+  background: rgba(245, 234, 194, 1);
+  width: 30%;
+  height: 30%;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+display: grid;
+grid-template-columns: 1fr 1fr ;
+grid-column-gap:10px;
+  row-gap: 15px;
+}
+.form2_datos{
+display: grid;
+grid-template-columns: 1fr 1fr ;
+grid-column-gap:10px;
+  row-gap: 15px;
+}
+.final{
+display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 80%;
+
+}
+
+.datos-input{
+padding:.6rem!important;
+  width: 80%;
+  height: 80%;
+}
+.datos-input2{
+  width: 80%;
+height: 45%;
+  
+}
+
+.datos-input3{
+  width: 50%;
+height: 80%;
+  
+}
+
+.voluntarios{
+background: rgba(118, 71, 0, 1);
+  width: 70%;
+  max-width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.titulos{
+text-align: center;
+color: white;
+
+}
+
+.selectMes{
+width: 100%;
+background: #fff;
+border: 3px solid transparent;
+border-radius: 3px;
+height: 45px;
+line-height: 45px;
+padding: 0 40px 0 10px;
+transition: .3s ease all;	
+}
+
+.datos_finales{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+}
+
+.formulario {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+}
+
+.formulario__label {
+color: white;
+display: block;
+font-weight: 700;
+padding: 10px;
+cursor: pointer;
+font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.formulario__grupo-input {
+position: relative;
+}
+
+.formulario__input {
+width: 100%;
+background: #fff;
+border: 3px solid transparent;
+border-radius: 3px;
+height: 45px;
+line-height: 45px;
+padding: 0 40px 0 10px;
+transition: .3s ease all;
+}
+
+.formulario__input:focus {
+border: 3px solid #0075FF;
+outline: none;
+box-shadow: 3px 0px 30px rgba(163,163,163, 0.4);
+}
+
+.formulario__input-error {
+font-size: 12px;
+margin-bottom: 0;
+display: none;
+}
+
+.formulario__input-error-activo {
+display: block;
+color: white;
+}
+
+.formulario__validacion-estado {
+position: absolute;
+right: 10px;
+bottom: 15px;
+z-index: 100;
+font-size: 16px;
+opacity: 0;
+}
+
+.formulario__checkbox {
+margin-right: 10px;
+}
+
+.formulario__grupo-terminos, 
+.formulario__mensaje,
+.formulario__grupo-btn-enviar {
+grid-column: span 2;
+}
+
+.formulario__mensaje {
+height: 45px;
+line-height: 45px;
+background: #F66060;
+padding: 0 15px;
+border-radius: 3px;
+display: none;
+}
+
+.formulario__mensaje-activo {
+display: block;
+}
+
+.formulario__mensaje p {
+margin: 0;
+}
+
+.formulario__grupo-btn-enviar {
+display: flex;
+flex-direction: column;
+align-items:flex-end
+}
+
+.formulario__btn {
+height: 45px;
+line-height: 45px;
+width: 30%;
+background-color:rgba(245, 234, 194, 1);
+color:rgba(118, 71, 0, 1);
+font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+font-weight: bold;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+transition: .1s ease all;
+}
+
+.formulario__btn:hover {
+box-shadow: 3px 0px 30px rgba(163,163,163, 1);
+}
+
+.formulario__mensaje-exito {
+font-size: 14px;
+color: #119200;
+display: none;
+}
+
+.formulario__mensaje-exito-activo {
+display: block;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formulario__grupo-correcto .formulario__validacion-estado {
+color: #1ed12d;
+opacity: 1;
+
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+color: #bb2929;
+opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+border: 3px solid #bb2929;
+}
+
+
+/* ----- -----  Mediaqueries ----- ----- */
+@media screen and (max-width: 800px) {
+.formulario {
+  grid-template-columns: 1fr;
+}
+
+.formulario__grupo-terminos, 
+.formulario__mensaje,
+.formulario__grupo-btn-enviar {
+  grid-column: 1;
+}
+
+.formulario__btn {
+  width: 100%;
+}
+.form2 {
+  width: 100%;
+     margin-top: 0;
+}
+}
+
+
 section#contact {
   background-color: #613a00;
   background-position: center;
@@ -11131,14 +11375,21 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .footer {
-  text-align: right;
-  color: #fff;
+  display: flex;
+  align-content: end;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  background-color: #613a00;
+  padding: 1em ;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background-color: #613a00;
-}
-
-.footer .footerleft {
-  text-align: left;
-  position: relative;
+  font-weight: normal;
+  padding-right: 20px;
+  justify-content: end;
+  align-items: center;
+  color: whitesmoke;
+  display: flex;
+  justify-content:space-between;
 }
