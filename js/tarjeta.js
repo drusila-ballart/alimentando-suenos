@@ -7,7 +7,7 @@ const expresiones = {
 	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 	telefono: /^\d{7,14}$/, // 7 a 14 numeros.
 	dni: /^\d{8}$/, // 7 a 8 numeros.
-	monto: /^\d{0,50}$/, // 
+	monto: /^\d{1,40}$/, // 
     tarjeta: /^\d{19}$/, //
     codigo: /^\d{3}$/, //
 
