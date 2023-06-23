@@ -8,7 +8,7 @@ const expresiones = {
 	telefono: /^\d{7,14}$/, // 7 a 14 numeros.
 	dni: /^\d{8}$/, // 7 a 8 numeros.
 	provincia: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, 
-	localidad: /^[a-zA-ZÀ-ÿ\s]{1,40}$/, 
+	localidad: /^[a-zA-ZÀ-ÿ\s]{1,40}$/
 }
 
 const campos = {
@@ -16,9 +16,9 @@ const campos = {
 	nombre: false,
 	correo: false,
 	telefono: false,
-	dni : false,
-	provincia : false,
-	localidad : false,
+	dni: false,
+	provincia: false,
+	localidad: false
 }
 
 const validarFormulario = (e) => {
@@ -75,7 +75,7 @@ inputs.forEach((input) => {
 formulario.addEventListener('submit', (e) => {
 	e.preventDefault();
 
-	const terminos = document.getElementById('terminos');
+	// const terminos = document.getElementById('terminos');
 	if(campos.nombre && campos.apellido && campos.dni && campos.correo && campos.telefono && campos.provincia && campos.localidad ){
 		formulario.reset();
 
