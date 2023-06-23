@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/logo2.png" />
+        <title>Alimentando Sueños | Voluntariado</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/styleforms.css">
+        <link rel="stylesheet" href="css/stylemenu.css">
+        <!-- Font Awesome icons (free version)-->
+        <!-- <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script> -->
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+        <!-- Menú de navegación -->
+        <header class="encabezado">
+            <nav>
+                <a class="iconoheader" href="index.html"> <img src="assets/img/icono.png" alt="Logo ONG" height="30px"/>ALIMENTANDO SUEÑOS</a>
+                <div class="menu-icon">&#9776;</div>
+                <ul class="menu">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="#">VOLUNTARIADO</a></li>
+                    <li><a href="dona.html">DONÁ</a></li>
+                    <li><a href="merenderos.html">MERENDEROS</a></li>
+                    <li><a href="nosotros.html">NOSOTROS</a></li>
+                </ul>
+            </nav>       
+        </header>
+
+        <!-- Voluntariado -->
+        <section class="page-section" id="dona">
+            <header class="masthead2">
+                <div class="container">
+                    <div class="masthead-heading text-uppercase">VOLUNTARIADO</div>
+                    <div class="masthead-subheading">¡Nuestra labor y compromiso humanitario es transformar y mejorar realidades!</div>
+                </div>
+            </header>
+            <div>
+                <br>
+                <p>¡Unite a nuestro voluntariado y forma parte de un equipo que marca la diferencia en los merenderos de comunidades vulnerables!</p>
+                <br>
+                <p>Si tenes el deseo de contribuir a mejorar la calidad de vida de las personas que se encuentran en situaciones difíciles, te invitamos a sumarte a nuestra labor humanitaria. En nuestros merenderos, brindamos apoyo y nutrición a niños y niñas que, muchas veces, dependen de estas comidas para cubrir sus necesidades básicas.</p>
+                <br>
+                <p>Al unirte a nuestro voluntariado, tendrás la oportunidad de ser parte de un movimiento solidario y transformador. Podrás acompañar a estas familias, fortaleciendo sus capacidades y promoviendo la resiliencia en su día a día.</p>
+            </div>
+        </section>
+        <main>
+            <div class="voluntarios">
+                <div class="titulos">
+                    <h1><span style="color:white">Sumate al </span><span style="color:rgba(245, 234, 194, 1)">voluntariado</span></h1>
+                    <br>
+                    <h3>Vas a recibir información acerca de oportunidades para ayudar cerca de tu zona.</h3>
+                </div>
+                <br>
+                <br>
+                <form action="" class="formulario" id="formulario">
+                    <!-- Grupo: Nombre -->
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Nombre*</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="nombre" id="nombre" >
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El nombre tiene que ser de 4 a 16 dígitos y solo puede contener letras.</p>
+                    </div>
+                    
+                    <!-- Grupo: Apellido -->
+                    <div class="formulario__grupo" id="grupo__apellido">
+                        <label for="apellido" class="formulario__label">Apellido*</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="apellido" id="apellido" >
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El apellido tiene que ser de 4 a 16 dígitos y solo puede contener letras.</p>
+                    </div>
+                    
+                    <!-- Grupo: DNI -->
+                    <div class="formulario__grupo" id="grupo__dni">
+                        <label for="dni" class="formulario__label">DNI*</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="dni" id="dni" >
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El dni solo puede contener numeros y el maximo son 8 dígitos.</p>
+                    </div>
+        
+                    <!-- Grupo: Correo Electronico -->
+                    <div class="formulario__grupo" id="grupo__correo">
+                        <label for="correo" class="formulario__label">Correo Electrónico</label>
+                        <div class="formulario__grupo-input">
+                            <input type="email" class="formulario__input" name="correo" id="correo" >
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+                    </div>
+        
+                    <!-- Grupo: Teléfono -->
+                    <div class="formulario__grupo" id="grupo__telefono">
+                        <label for="telefono" class="formulario__label">Número de Contacto</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="telefono" id="telefono" >
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
+                    </div>
+    
+                    <!-- Grupo: Provincia -->
+                    <div class="formulario__grupo" id="grupo__provincia">
+                        <label for="provincia" class="formulario__label">Provincia*</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="provincia" id="provincia" >
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">Provincia solo puede contener letras.</p>
+                    </div>
+    
+                    <!-- Grupo: Localidad -->
+                    <div class="formulario__grupo" id="grupo__localidad">
+                        <label for="localidad" class="formulario__label">Localidad*</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="localidad" id="localidad" >
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                        </div>
+                        <p class="formulario__input-error">Localidad solo puede contener letras.</p>
+                    </div>
+        
+                    <div class="formulario__mensaje" id="formulario__mensaje">
+                        <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+                    </div>
+                    
+        
+                    <div class="formulario__grupo formulario__grupo-btn-enviar">
+                        <button type="submit" class="formulario__btn">Enviar</button>
+                        <p class="formulario__mensaje-exito" id="formulario__mensaje-exito"></p>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footerleft">
+                <p>© Todos los derechos reservados</p><p>UADE</p>
+                <p>Derechos de imágenes: freepik.es</p>
+            </div>
+            <div class="footerright">
+                <p>BOTTINELLI, Rocío</p>
+                <p>CEJAS, Araceli</p>
+                <p>BALLART, Drusila</p>
+                <p>CLAROS CORO, Juan Pablo</p>
+            </div>
+        </footer>
+        <!-- Formularios con JavaScript -->
+        <!-- <script src="js/voluntario.js"></script> -->
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+        <script src="js/tarjeta.js"></script> 
+        <script src="js/menu.js"></script>
+    </body>
+</html>
