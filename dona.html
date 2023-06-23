@@ -1,45 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Doná</title>
-        <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/logo2.png" />
+        <title>Alimentando Sueños | Doná</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/styleforms.css">
+        <link rel="stylesheet" href="css/stylemenu.css">
         <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Fuentes de Google -->
+        <!-- <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script> -->
+        <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        
-    <!-- Menú de navegación -->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top"> <img src="assets/img/icono.png" alt="..." /> Alimentando Sueños</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ms-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Sumate</a>
-                            <ul class="submenu">
-                                <li class="nav-item"><a href="voluntariado.html">Voluntariado</a></li>
-                                <li class="nav-item"><a href="#">Doná</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" href="merenderos.html">Merenderos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
 
-    <!-- Doná -->
+    </head>
+
+    <body>
+        <!-- Menú de navegación -->
+        <header class="encabezado">
+            <nav>
+                <a class="iconoheader" href="index.html"> <img src="assets/img/icono.png" alt="Logo ONG" height="30px"/>ALIMENTANDO SUEÑOS</a>
+                <div class="menu-icon">&#9776;</div>
+                <ul class="menu">
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="voluntariado.html">VOLUNTARIADO</a></li>
+                    <li><a href="#">DONÁ</a></li>
+                    <li><a href="merenderos.html">MERENDEROS</a></li>
+                    <li><a href="nosotros.html">NOSOTROS</a></li>
+                </ul>
+            </nav>       
+        </header>
+
+        <!-- Doná -->
         <section class="page-section" id="dona">
             <header class="masthead3">
                 <div class="container">
@@ -50,11 +44,18 @@
             <div>
                 <br>
                 <p>¡Ayuda a alimentar sonrisas! Dona hoy y apoya a los merenderos en su invaluable labor.</p>
+                <br>
                 <p>Sabemos que hay niños y niñas que dependen de los merenderos para recibir una comida adecuada y nutritiva. Pero no podemos hacerlo solos, necesitamos de tu generosidad para continuar brindando este apoyo vital.</p>
+                <br>
                 <p>Tu donación puede marcar la diferencia en la vida de estos chicos. Cada contribución, por pequeña que sea, se traduce en sonrisas, en esperanza y en la oportunidad de un futuro más prometedor. Con tu ayuda, podemos garantizar que ellos tengan acceso a una alimentación adecuada, lo cual es fundamental para su desarrollo físico y emocional.</p>
+                <br>
                 <p>Al elegir donar, estás demostrando tu compromiso con la comunidad y con la equidad. Cada peso donado se destina directamente a la compra de alimentos y suministros necesarios para los merenderos. Además, nos aseguramos de que los recursos se utilicen de manera eficiente y transparente, para maximizar el impacto de cada donación.</p>
+                <br>
                 <p>Nuestro merendero cuenta con un equipo de voluntarios comprometidos, quienes se esfuerzan día a día para llevar adelante esta noble tarea. Pero su labor no sería posible sin el apoyo económico de personas como vos. Juntos, podemos asegurar que ningún niño se vaya a dormir con hambre, que todos tengan la oportunidad de crecer sanos y felices.</p>
             </div>
+            <br>
+            <br>
+            <br>
             <section>
                 <script>
                     function sumar(){
@@ -109,7 +110,7 @@
                             <h1><span style="color:rgba(245, 234, 194, 1)">Doná </span><span style="color:white">y transforma realidades</span></h1>
                             <h3>Tu donación, por mas pequeña que sea, contribuirá a cambiar vidas y a construir un futuro más justo.</h3>
                         </div>
-                
+                        <br>
                         <form action="" class="formulario" id="formulario">
                             <!-- Grupo: Nombre -->
                             <div class="formulario__grupo" id="grupo__nombre">
@@ -232,13 +233,7 @@
                 </div>
             </section>
         </section>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+
         <br>
         <br>
         <br>
@@ -247,28 +242,24 @@
         <br>
         <br>
 
-    <!-- Footer-->
-    <footer class="footer">
-        <div>
-            <p>UADE</p>
-            <p>Derechos de imágenes: freepik.es</p>
-        </div>
-        <div>
-            <p>© Todos los derechos reservados</p>
-            <br>
-            <p>BOTTINELLI, Rocío</p>
-            <p>CEJAS, Araceli</p>
-            <p>BALLART, Drusila</p>
-            <p>CLAROS CORO, Juan Pablo</p>
-        </div>
-    </footer>
-        
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footerleft">
+                <p>© Todos los derechos reservados</p><p>UADE</p>
+                <p>Derechos de imágenes: freepik.es</p>
+            </div>
+            <div class="footerright">
+                <p>BOTTINELLI, Rocío</p>
+                <p>CEJAS, Araceli</p>
+                <p>BALLART, Drusila</p>
+                <p>CLAROS CORO, Juan Pablo</p>
+            </div>
+        </footer>
+        <!-- Formularios con JavaScript -->
+        <!-- <script src="js/voluntario.js"></script> -->
+        <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
-        <script src="js/tarjeta.js"></script>
-        <script src="js/voluntario.js"></script>
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script src="js/tarjeta.js"></script> 
+        <script src="js/menu.js"></script>      
     </body>
 </html>
